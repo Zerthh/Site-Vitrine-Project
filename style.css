@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Playfair_Display';
-    src: url('/assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
-    src: url('/assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    src: url('./assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Lora';
-    src: url('/assets/fonts/Lora/Lora-Italic-VariableFont_wght.ttf') format('truetype');
-    src: url('/assets/fonts/Lora/Lora-VariableFont_wght.ttf') format('truetype');
+    src: url('./assets/fonts/Lora/Lora-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('./assets/fonts/Lora/Lora-VariableFont_wght.ttf') format('truetype');
 } 
 
 
@@ -44,13 +44,13 @@ main {
 
 .divider-1 { /* DIVIDER DE CAHIER */
     width: 100%;
-    background: url(/assets/images/Séparateur-Cahier/separateur.png) no-repeat;
+    background: url(./assets/images/Séparateur-Cahier/separateur.png) no-repeat;
     background-position: center;
     background-size: cover;
     height: calc(1.9888% + 2.4vw);
 } .divider-2 { /* DIVIDER DE CAHIER */
     width: 50%;
-    background: url(/assets/images/Séparateur-Cahier/separateur.png) no-repeat;
+    background: url(./assets/images/Séparateur-Cahier/separateur.png) no-repeat;
     background-position: center;
     background-size: cover;
     height: 1%;
@@ -130,7 +130,7 @@ header nav a {
     position: relative;
     transform: scale(1, 1);
     transition: 0.3s ease;
-    background: url(/assets/images/Aside-Accueil/logo-nav.svg) no-repeat;
+    background: url(./assets/images/Aside-Accueil/logo-nav.svg) no-repeat;
     background-size: contain;
     background-position: center;
     height: 100%;
@@ -153,7 +153,7 @@ header nav a {
     transform: translateX(-50%);
     height: calc(30px + 1.5vw);
     width: calc(30px + 1.5vw);
-    background: url(/assets/images/Aside-Accueil/triangle-nav.svg) no-repeat;
+    background: url(./assets/images/Aside-Accueil/triangle-nav.svg) no-repeat;
     background-position: center;
     background-size: contain;
 } 
@@ -181,7 +181,7 @@ header nav a {
 /* ROPE + CONTAINER-SIDE */
 .left-side, .right-side {
     position: relative;
-    background: url(/assets/images/Aside-Accueil/rope.svg) no-repeat;
+    background: url(./assets/images/Aside-Accueil/rope.svg) no-repeat;
     background-position: center;
     width: 25%;
     height: 100%;
@@ -198,11 +198,11 @@ header nav a {
     height: 70%;
 }
 .left-side::before { 
-    background: url(/assets/images/Aside-Accueil/outil-charpenterie.png) no-repeat;
+    background: url(./assets/images/Aside-Accueil/outil-charpenterie.png) no-repeat;
     background-size: contain;
     top: calc(21% - 4vw);
 } .left-side::after {
-    background: url(/assets/images/Aside-Accueil/outil-charp-2.png) no-repeat;
+    background: url(./assets/images/Aside-Accueil/outil-charp-2.png) no-repeat;
     background-size: contain;
     top: calc(66% - 4vw);
 }
@@ -216,11 +216,11 @@ header nav a {
     height: 70%;
 }
 .right-side::before {
-    background: url(/assets/images/Aside-Accueil/outil-plombier.png) no-repeat;
+    background: url(./assets/images/Aside-Accueil/outil-plombier.png) no-repeat;
     background-size: contain;
     top: calc(21% - 4vw);
 } .right-side::after {
-    background: url(/assets/images/Aside-Accueil/outil-plombier-2.png) no-repeat;
+    background: url(./assets/images/Aside-Accueil/outil-plombier-2.png) no-repeat;
     background-size: contain;
     right: 0;
     top: calc(66% - 4vw);
@@ -274,7 +274,7 @@ header nav a {
     position: relative;
     width: 100%;
     height: calc(10% + 13vw);
-    background: url(/assets/images/Image-Header/adult-gf10379428_1920.jpg) no-repeat;
+    background: url(./assets/images/Image-Header/adult-gf10379428_1920.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     border-bottom: 3px solid white;
@@ -284,7 +284,7 @@ header nav a {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -45%);
-    background: url(/assets/images/Aside-Accueil/logo-header.svg) no-repeat;
+    background: url(./assets/images/Aside-Accueil/logo-header.svg) no-repeat;
     background-size: contain;
     background-position: center;
     height: 70%;
@@ -351,12 +351,12 @@ h1 { /* TITRE D'ACCUEIL */
     height: calc(10% + 6.7vw);
     width: calc(10% + 9.7vw);
 } .devis::before {
-    background: url(/assets/images/Flêche-pour-Devis-Accueil/Vector-2.png) no-repeat;
+    background: url(./assets/images/Flêche-pour-Devis-Accueil/Vector-2.png) no-repeat;
     background-position: center;
     background-size: contain;
     left: calc(-10% - 11vw);
 } .devis::after {
-    background: url(/assets/images/Flêche-pour-Devis-Accueil/Vector-1.png) no-repeat;
+    background: url(./assets/images/Flêche-pour-Devis-Accueil/Vector-1.png) no-repeat;
     background-position: center;
     background-size: contain;
     right: calc(-10% - 11vw);
@@ -396,7 +396,7 @@ h1 { /* TITRE D'ACCUEIL */
     padding-inline: calc(4vi + 5px);
     padding: calc(4vi + 5px) calc(4vi + 5px);
     border: 1px solid;
-    border-image-source: url('/assets/images/SavoirFaire/guillemet.svg');
+    border-image-source: url('./assets/images/SavoirFaire/guillemet.svg');
     border-image-slice: 1 fill;
     margin-top: calc(1px + 2vw);
 } .contacter-style {
@@ -569,7 +569,7 @@ h1 { /* TITRE D'ACCUEIL */
     left: 50%;
     top: 50%;
     transform: translate(-50%, -49%);
-    background: url(/assets/images/Section-Expertise/vector.png) no-repeat;
+    background: url(./assets/images/Section-Expertise/vector.png) no-repeat;
     background-size: contain; 
     background-position: center;
     height: 210%;
@@ -584,7 +584,7 @@ h1 { /* TITRE D'ACCUEIL */
     left: 50%;
     top: 50%;
     transform: translate(-50%, -47%);
-    background: url(/assets/images/Section-Expertise/vector.png) no-repeat;
+    background: url(./assets/images/Section-Expertise/vector.png) no-repeat;
     background-size: contain; 
     background-position: center;
     height: 180%;
@@ -674,7 +674,7 @@ h1 { /* TITRE D'ACCUEIL */
     width: 100%;
     color: white;
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-    background: url(/assets/images/Réalisation-Témoignages/bulle-1.png) no-repeat;
+    background: url(./assets/images/Réalisation-Témoignages/bulle-1.png) no-repeat;
     background-position: center;
     background-size: contain;
 }
@@ -706,7 +706,7 @@ h1 { /* TITRE D'ACCUEIL */
 /* ROND DU TOP DE LA SECTION */
 
 .realisations::before, .realisations::after { /* ROND */
-    content: url('/assets/images/Forme-Triangle-Rond-etc/3eme-Rond-Section-4.svg');
+    content: url('./assets/images/Forme-Triangle-Rond-etc/3eme-Rond-Section-4.svg');
     position: absolute;
     top: -15px;
     z-index: -1;
@@ -714,7 +714,7 @@ h1 { /* TITRE D'ACCUEIL */
     left: -15px;
     height: 100%;
     width: 100%;
-    background: url(/assets/images/Réalisation-Témoignages/realisations.png) no-repeat;
+    background: url(./assets/images/Réalisation-Témoignages/realisations.png) no-repeat;
     background-size: contain;
     background-position: right;
 } .realisations::after {
@@ -747,7 +747,7 @@ h1 { /* TITRE D'ACCUEIL */
     background-color: #eee;
     height: 99.5%;
     width: 100%;
-    background: url(/assets/images/Réalisation-Témoignages/8401.png) no-repeat;
+    background: url(./assets/images/Réalisation-Témoignages/8401.png) no-repeat;
     background-size: 80%;
     background-position: 0 8%;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
@@ -787,7 +787,7 @@ h1 { /* TITRE D'ACCUEIL */
     width: 100%;
     color: white;
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-    background: url(/assets/images/Réalisation-Témoignages/bulle-2.png) no-repeat;
+    background: url(./assets/images/Réalisation-Témoignages/bulle-2.png) no-repeat;
     background-position: center;
     background-size: contain;
 }
@@ -835,12 +835,12 @@ h1 { /* TITRE D'ACCUEIL */
     height: 17%;
     background-color: #eee;
 } .temoignages-avis::before {
-    content: url(/assets/images/Forme-Triangle-Rond-etc/4eme-Rond-Section-5.svg);
+    content: url(./assets/images/Forme-Triangle-Rond-etc/4eme-Rond-Section-5.svg);
     position: absolute;
     top: -133px;
     left: -15px;
 } .temoignages-avis::after {
-    content: url(/assets/images/Forme-Triangle-Rond-etc/4eme-Rond-Section-5.svg);
+    content: url(./assets/images/Forme-Triangle-Rond-etc/4eme-Rond-Section-5.svg);
     position: absolute;
     top: -133px;
     right: -15px;
@@ -858,7 +858,7 @@ h1 { /* TITRE D'ACCUEIL */
     color: white;
     letter-spacing: calc(0.35vi + 1px);
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
-    background:  url(/assets/images/Témoignages-clients/16576.png) no-repeat;
+    background:  url(./assets/images/Témoignages-clients/16576.png) no-repeat;
     background-position: -8px center;
     background-size: cover;
 }
@@ -880,12 +880,12 @@ h1 { /* TITRE D'ACCUEIL */
 /* POSITION DES COMMENTAIRE + PHOTO ET PORTRAIT */
 .commentaire aside:nth-child(-1n+2) { /* GAUCHE */
     left: calc(-10px - 8vw);
-    background: url(/assets/images/Témoignages-clients/conteneur-1.svg) no-repeat;
+    background: url(./assets/images/Témoignages-clients/conteneur-1.svg) no-repeat;
     background-position: center;
     background-size: cover;
 } .commentaire aside:nth-child(1n+3) { /* DROITE */
     right: calc(-10px - 8vw);
-    background: url(/assets/images/Témoignages-clients/conteneur-2.svg) no-repeat;
+    background: url(./assets/images/Témoignages-clients/conteneur-2.svg) no-repeat;
     background-position: center;
     background-size: cover;
 } .commentaire aside:nth-child(even) { /* HAUT */
@@ -987,7 +987,7 @@ h1 { /* TITRE D'ACCUEIL */
 } .info-contact::before {
     content: '';
     position: absolute;
-    background: url(/assets/images/Formulaire-de-contact/pointiller-contact.svg) no-repeat;
+    background: url(./assets/images/Formulaire-de-contact/pointiller-contact.svg) no-repeat;
     background-size: contain;
     background-position: center;
     top: 50%;
@@ -1033,15 +1033,15 @@ h1 { /* TITRE D'ACCUEIL */
 }
 
 .info-contact p:nth-child(4)::before, .info-contact p:nth-child(4)::after {
-    background: url(/assets/images/Formulaire-de-contact/phone.svg) no-repeat;
+    background: url(./assets/images/Formulaire-de-contact/phone.svg) no-repeat;
     background-size: contain;
     background-position: center;
 } .info-contact p:nth-child(5)::before, .info-contact p:nth-child(5)::after {
-    background: url(/assets/images/Formulaire-de-contact/mail.svg) no-repeat;
+    background: url(./assets/images/Formulaire-de-contact/mail.svg) no-repeat;
     background-size: contain;
     background-position: center;
 } .info-contact p:nth-child(6)::before, .info-contact p:nth-child(6)::after {
-    background: url(/assets/images/Formulaire-de-contact/map-marker.svg) no-repeat;
+    background: url(./assets/images/Formulaire-de-contact/map-marker.svg) no-repeat;
     background-size: contain;
     background-position: center;
 }
@@ -1119,15 +1119,15 @@ input::placeholder, textarea::placeholder {
     height: calc(5px + 1vw);
     z-index: 2;
 } .box-1::before, .box-2::before {
-    background: url(/assets/images/Formulaire-de-contact/user.svg) no-repeat;
+    background: url(./assets/images/Formulaire-de-contact/user.svg) no-repeat;
     background-size: contain;
     background-position: center;
 } .box-3::before {
-    background: url(/assets/images/Formulaire-de-contact/phone.svg) no-repeat;
+    background: url(./assets/images/Formulaire-de-contact/phone.svg) no-repeat;
     background-size: contain;
     background-position: center;
 } .box-4::before {
-    background: url(/assets/images/Formulaire-de-contact/mail.svg) no-repeat;
+    background: url(./assets/images/Formulaire-de-contact/mail.svg) no-repeat;
     background-size: contain;
     background-position: center;
 }
@@ -1209,13 +1209,13 @@ footer::before {  /* TRIANGLE */
     clip-path: polygon(50% 0, 0 100%, 100% 100%);
     background-color: #fff;
 } .contact::before {  /* ROND */
-    content: url('/assets/images/Forme-Triangle-Rond-etc/5eme-Rond-Into-Pied-de-Page.svg');
+    content: url('./assets/images/Forme-Triangle-Rond-etc/5eme-Rond-Into-Pied-de-Page.svg');
     position: absolute;
     bottom: 210px;
     left: -20px;
     z-index: -1;
 } .contact::after {  /* ROND */
-    content: url('/assets/images/Forme-Triangle-Rond-etc/5eme-Rond-Into-Pied-de-Page.svg');
+    content: url('./assets/images/Forme-Triangle-Rond-etc/5eme-Rond-Into-Pied-de-Page.svg');
     position: absolute;
     bottom: 210px;
     right: -20px;
@@ -1234,7 +1234,7 @@ footer {
     width: 100%;
     height: 6%;
     border-top: 35px solid #BBC3C0;
-    background: url(/assets/images/Footer/workshop-ge73325bf1_1920.jpg) no-repeat;
+    background: url(./assets/images/Footer/workshop-ge73325bf1_1920.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 } 
